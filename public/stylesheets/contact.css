@@ -1,0 +1,36 @@
+main{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+p{
+    text-align: center;
+}
+.ic {
+    color:#015d9e;
+}
+h4 {
+    display: inline;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #b6b5b5;
+    width: 100%;
+}
+img.fotoo{
+    margin-bottom: 15px;
+}
+@media(min-width: 1024px){
+    img.fotoo{
+        width: 320px;
+        margin-bottom: 0px;
+    }
+    p{
+        text-align: start;
+    }
+}

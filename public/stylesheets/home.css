@@ -1,0 +1,152 @@
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  align-items: center;
+  height: 101px;
+  background: linear-gradient(#034f84, #043f57);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-top: 5px solid #034f84;
+  border-bottom: 5px solid #034f84;
+}
+a {
+  color: #00B7FF;
+}
+.redes {
+  text-decoration: none;
+  color: white;
+}
+.redes:hover{
+  text-decoration: none;
+  color: #00B7FF;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+img.logo {
+  height: 63px;
+  width: 199px;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+.sec {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.link:hover{
+  color: #00B7FF;
+  text-decoration: none;
+}
+.primero {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.ultimo {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.iconos{
+  width: 120px;
+}
+div.col-4.icono{
+  padding: 9px;
+  margin-right: 20px;
+}
+.icono {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  height: 40px;
+  width: 10px;
+  background: linear-gradient(#034f84, #00B7FF);
+  border-radius: 20px;
+  color: white;
+}
+i {
+  font-size: 22px;
+}
+main {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #f1f2f6;
+}
+.quienes {
+  background-color: white;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+h2.socios {
+  margin-bottom: 50px;
+}
+.sociosc{
+  padding-bottom: 90px;
+}
+p.quienes {
+  text-align: center;
+  font-weight: 600;
+  padding: 80px;
+  font-size: 28px;
+}
+img.foto{
+  width: 100px;
+}
+p.direc {
+  text-align: center;
+  color: white;
+}
+footer{
+  padding: 50px;
+  background: linear-gradient(#484f4f, rgb(82, 81, 81));
+}
+nav.col-9.desk {
+  display: flex;
+  justify-content: space-around;
+   align-items: center;
+}
+.mobile {
+  display: flex;
+}
+nav.col-9.desk {
+  display: none;
+}
+.desk {
+  display: none;
+}
+.navm {
+  color: white;display: flex;align-items: center;justify-content: center;
+}
+@media(min-width: 1024px){
+  .mobile {
+    display: none;
+  }
+  .desk {
+    display: flex;
+  }
+  nav.col-9.desk {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+  }
+}

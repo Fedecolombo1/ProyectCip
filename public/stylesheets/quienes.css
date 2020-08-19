@@ -1,0 +1,12 @@
+h3.col-12.nombre {
+    color: #034f84;
+    font-weight: 700;
+}
+p.col-12.titulo {
+    font-style: italic;
+}
+.banner {
+    height: 300px;
+    background: linear-gradient(#034f84, #00B7FF);
+    margin-bottom: 40px;
+}

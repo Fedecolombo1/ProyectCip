@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CIP Contacto</title>
+        <link rel='stylesheet' href='/stylesheets/home.css' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='/stylesheets/contact.css' />
+        <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <%- include("partials/header.ejs")%>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.954190275136!2d-58.39650608504707!3d-34.756746773117506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2be1f977099%3A0xfa8901e080d905f3!2sMonse%C3%B1or%20Alejandro%20Schell%20197%2C%20B1832HHD%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1596412797401!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2 class="col-12" style="text-align: center;">Información de contacto</h2>
+                <p>La atención del consultorio es de lunes a sabados. Si deseas contactarnos por vía telefónica llámanos al (011) 4292-2898</p>
+                <div class="col-12" style="display: flex; justify-content: center;">
+                    <img class="fotoo" src="/images/puerta.jpg" alt="">
+                </div>
+                <div class="row col-12">
+                    <div class="col-12 col-lg-4 num">
+                        <i class="fas fa-phone-alt ic"></i> <h4> (011) 4292-2898</h4>
+                    </div>
+                    <div class="col-12 col-lg-8 num">
+                        <i class="fas fa-envelope ic"></i> <h4> centrointegraldepsicologia@yahoo.com.ar</h4>
+                    </div>
+                    <div class="col-12 num">
+                        <i class="fas fa-map-marker-alt ic"></i>
+                        <h4> Monseñor Schell 197 - Lomas de Zamora - Buenos Aires</h4>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <%- include("partials/footer.ejs")%>
+</body>
+</html>
