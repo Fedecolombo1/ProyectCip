@@ -147,6 +147,6 @@ nav.col-9.desk {
   }
   .logo {
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
 }
