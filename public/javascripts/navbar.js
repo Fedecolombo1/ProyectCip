@@ -1,11 +1,9 @@
 window.addEventListener("load", function(){
-    var navbar = document.querySelector("div.navbar")
+    var navbar = document.querySelector("div.col-2.mobile.navm")
     navbar.addEventListener("click", function(){
-        var navbar = document.querySelector("div.navbar")
-        if (navbar.style.display === "block") {
-            navbar.style.display = "none";
-          } else {
-            navbar.style.display = "block";
-          }
+        document.querySelector("div.navbar.mobile").classList.toggle("navbar2")
+    })
+    footer.addEventListener("click", function(){
+        document.querySelector("div.navbar.mobile").style.left = "-100%"
     })
 })

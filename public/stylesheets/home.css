@@ -135,11 +135,26 @@ nav.col-9.desk {
   color: white;display: flex;align-items: center;justify-content: center;
 }
 .navbar {
-  background: #2c3e50;
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  background: #043f57;
+  left: -100%;
+  top: 97px;
+  transition: all .5s;
+  border-bottom: 5px solid #034f84;
 }
-ul.navbarUl{
-  height: 100vh;
+.navbar2 {
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  background:#043f57;
+  left: 0%;
+  top: 97px;
+  transition: all .5s;
+  border-bottom: 5px solid #034f84;
 }
+
 ul.navbarUl li a{
   margin-top: 20px;
   text-align: center;
