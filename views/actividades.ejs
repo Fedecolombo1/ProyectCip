@@ -1,52 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>CIP Actividades</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel='stylesheet' href='/stylesheets/actividades.css' />
-        <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
-    </head>
-<body>
+<html>
+  <head>
+    <title>Centro CIP Actividades</title>
+    <link rel='stylesheet' href='/stylesheets/actividadess.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <%- include("partials/header.ejs")%>
-    <img src="/images/actividadDeFormacion.jpg" alt="" class="col-12 banner">
-    <div class="col-12 titulo">Actividades de formación</div>
-    <main class="container-fluid">
-        <div class="row" style="justify-content: space-around;"> 
-            <div class="col-12 col-lg-5 act">
-                <img src="/images/psicologica.jpeg" alt="" class="col-12 img">
-                <h4 class="col-12 actT">Atención psicologica</h4>
-                <ul class="col-12">
-                    <li>Niños, Adolescentes, Adultos</li>
-                    <li>Parejas - Familias</li>
-                    <li>Orientación a padres</li>
-                </ul>
-            </div>
-            <div class="col-12 col-lg-5 act">
-                <img src="/images/fonoaudio.jpg" alt="" class="col-12 img">
-                <h4 class="col-12 actT">Atención fonoaudiologica</h4>
-                <ul class="col-12">
-                    <li>Trastornos del lenguaje</li>
-                    <li>Rehabilitación del habla y de la voz</li>
-                </ul>
-            </div>
-            <div class="col-12 col-lg-5 act">
-                <img src="/images/psicopedagoga.jpg" alt="" class="col-12 img">
-                <h4 class="col-12 actT">Atención psicopedagogica</h4>
-                <ul class="col-12">
-                    <li>Clinica psicopedagogica</li>
-                    <li>Diagnostico y tratamiento de las dificultades de aprendizaje</li>
-                </ul>
-            </div>
-            <div class="col-12 col-lg-5 act">
-                <img src="/images/discapacidad.jpeg" alt="" class="col-12 img">
-                <h4 class="col-12 actT">Discapacidad</h4>
-                <ul class="col-12">
-                    <li>Equipo interdisciplinario: psicologia, psicopedagogi­a, fonoaudiologia.</li>
-                </ul>
-            </div>
+    <main>
+        <div class="col-12 texto1">
+            <h2 class="col-12">Docencia e investigación</h2>
+            <p class="col-12 texto">Desde los inicios del CIP, en el año 1983, realizamos ateneos, cursos y jornadas de capacitación, seminarios y grupos de estudio. Los mismos están dirigidos a psicólogos, docentes y profesionales del ámbito de la salud. Estas actividades se llevan a cabo en nuestra institución, ofreciendo un ámbito de formación y de participación, con profesionales de nuestra casa, así como también con profesionales invitados de otros ámbitos.</p>
+        </div>
+        <div class="col-12 texto2">
+            <h2 class="col-12">Supervisión</h2>
+            <p class="col-12 texto">Realizamos supervisiones a otros profesionales del área de la psicología.</p>
         </div>
     </main>
+
     <%- include("partials/footer.ejs")%>
-</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
+

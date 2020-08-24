@@ -14,8 +14,13 @@ router.get('/nosotros', function(req, res, next) {
   res.render('quienes');
 });
 
+router.get('/tratamientos', function(req, res, next) {
+  res.render('tratamientos');
+});
+
 router.get('/actividades', function(req, res, next) {
   res.render('actividades');
 });
+
 
 module.exports = router;

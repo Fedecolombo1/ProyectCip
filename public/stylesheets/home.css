@@ -134,6 +134,9 @@ nav.col-9.desk {
 .navm {
   color: white;display: flex;align-items: center;justify-content: center;
 }
+.celeste{
+  color: #00B7FF;
+}
 .navbar {
   position: fixed;
   width: 100%;
@@ -145,7 +148,7 @@ nav.col-9.desk {
   border-bottom: 5px solid #034f84;
 }
 .navbar2 {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 9000;
   background:#043f57;

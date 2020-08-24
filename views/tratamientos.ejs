@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CIP Tratamientos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='/stylesheets/actividades.css' />
+        <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <%- include("partials/header.ejs")%>
+    <img src="/images/actividadDeFormacion.jpg" alt="" class="col-12 banner">
+    <div class="col-12 titulo">Actividades de formación</div>
+    <main class="container-fluid">
+        <div class="row" style="justify-content: space-around;"> 
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/psicologica.jpeg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención psicologica</h4>
+                <ul class="col-12">
+                    <li>Niños, Adolescentes, Adultos</li>
+                    <li>Parejas - Familias</li>
+                    <li>Orientación a padres</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/fonoaudio.jpg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención fonoaudiologica</h4>
+                <ul class="col-12">
+                    <li>Trastornos del lenguaje</li>
+                    <li>Rehabilitación del habla y de la voz</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/psicopedagoga.jpg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención psicopedagogica</h4>
+                <ul class="col-12">
+                    <li>Clinica psicopedagogica</li>
+                    <li>Diagnostico y tratamiento de las dificultades de aprendizaje</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/discapacidad.jpeg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Discapacidad</h4>
+                <ul class="col-12">
+                    <li>Equipo interdisciplinario: psicologia, psicopedagogi­a, fonoaudiologia.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <%- include("partials/footer.ejs")%>
+</body>
+</html>
