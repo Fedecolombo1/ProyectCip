@@ -1,5 +1,6 @@
 main{
     padding-top: 0px !important;
+    padding-bottom: 0px !important;
     background-color: #023B63 !important;
 }
 .texto{
@@ -8,7 +9,9 @@ main{
     color: white;
 }
 .texto1 {
-    background-color:#0569AF !important
+    background-color:#0569AF !important;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 h2.col-12{
     font-weight: bold;
@@ -17,4 +20,6 @@ h2.col-12{
 }
 .texto2{
     background-color: #023B63;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }

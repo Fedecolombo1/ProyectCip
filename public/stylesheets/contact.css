@@ -34,6 +34,10 @@ img.fotoo{
     margin-bottom: 15px;
 }
 @media(min-width: 1024px){
+    div.carousel-inner {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
     img.fotoo{
         width: 320px;
         margin-bottom: 0px;
