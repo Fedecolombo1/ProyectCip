@@ -10,7 +10,7 @@ router.get('/contacto', function(req, res, next) {
   res.render('contact');
 });
 
-router.get('/nosotros', function(req, res, next) {
+router.get('/profesionales', function(req, res, next) {
   res.render('quienes');
 });
 
@@ -20,6 +20,10 @@ router.get('/tratamientos', function(req, res, next) {
 
 router.get('/actividades', function(req, res, next) {
   res.render('actividades');
+});
+
+router.get('/nosotros', function(req, res, next) {
+  res.render('nosotros');
 });
 
 

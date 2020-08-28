@@ -83,8 +83,6 @@ i {
   font-size: 22px;
 }
 main {
-  padding-top: 40px;
-  padding-bottom: 50px;
   background-color: #f1f2f6;
 }
 .quienes {
@@ -110,8 +108,7 @@ img.foto{
   width: 100px;
 }
 p.direc {
-  text-align: center;
-  color: white;
+  color: #999;
 }
 footer{
   padding: 50px;
@@ -167,6 +164,57 @@ ul.navbarUl li {
   text-decoration: none;
   list-style: none;
 }
+.quees {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.quees2 {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background: #00B7FF;
+}
+.banner {
+  height: 40px;
+  background: linear-gradient(#034f84, #00B7FF);
+}
+.foot {
+  display: flex;
+  align-items: center;
+}
+.fot{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.redess {
+  text-align: center;
+  color: #999;
+  font-size: 26px;
+}
+.iconoss{
+  display: flex;
+  justify-content: center;
+}
+.navFoot{
+  text-align: start;
+  list-style: none;
+}
+.linkk{
+  text-align: start;
+  color: #999;
+}
+.linkk:hover{
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+.loc {
+  font-size:16px;
+  color: white;
+  font-weight: 700;
+}
 @media(min-width: 1024px){
   .mobile {
     display: none;
@@ -174,11 +222,18 @@ ul.navbarUl li {
   .desk {
     display: flex;
   }
-  nav.col-9.desk {
+  nav.col-8.desk {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .logo {
     display: flex;
     justify-content: center;
+  }
+  .loc {
+    font-size:16px;
+    color: white;
+    font-weight: 700;
   }
 }

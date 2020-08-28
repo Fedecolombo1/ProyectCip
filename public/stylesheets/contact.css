@@ -3,7 +3,7 @@ main{
     padding-bottom: 60px;
 }
 p{
-    text-align: center;
+    text-align: start;
 }
 .ic {
     color:#015d9e;
@@ -14,8 +14,8 @@ h4 {
     margin-left: 5px;
 }
 .num {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    justify-content: start;
     align-items: center;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -32,6 +32,13 @@ div.carousel-inner {
 img.fotoo{
     width: 100%;
     margin-bottom: 15px;
+}
+.otros {
+    margin: 0px !important;
+}
+.otrosD {
+    margin: 0px !important;
+    text-align: center;
 }
 @media(min-width: 1024px){
     div.carousel-inner {

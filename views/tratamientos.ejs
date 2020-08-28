@@ -10,40 +10,66 @@
 <body>
     <%- include("partials/header.ejs")%>
     <img src="/images/actividadDeFormacion.jpg" alt="" class="col-12 banner">
-    <div class="col-12 titulo">Actividades de formación</div>
     <main class="container-fluid">
-        <div class="row" style="justify-content: space-around;"> 
+        <div class="row mobile" style="justify-content: space-around;"> 
             <div class="col-12 col-lg-5 act">
                 <img src="/images/psicologica.jpeg" alt="" class="col-12 img">
                 <h4 class="col-12 actT">Atención psicologica</h4>
-                <ul class="col-12">
-                    <li>Niños, Adolescentes, Adultos</li>
-                    <li>Parejas - Familias</li>
-                    <li>Orientación a padres</li>
+                <ul class="col-12 esp">
+                    <li class="esp">Niños, Adolescentes, Adultos</li>
+                    <li class="esp">Parejas - Familias</li>
+                    <li class="esp">Orientación a padres</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-5 act">
                 <img src="/images/fonoaudio.jpg" alt="" class="col-12 img">
                 <h4 class="col-12 actT">Atención fonoaudiologica</h4>
-                <ul class="col-12">
-                    <li>Trastornos del lenguaje</li>
-                    <li>Rehabilitación del habla y de la voz</li>
+                <ul class="col-12 esp">
+                    <li class="esp">Trastornos del lenguaje</li>
+                    <li class="esp">Rehabilitación del habla y de la voz</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-5 act">
                 <img src="/images/psicopedagoga.jpg" alt="" class="col-12 img">
                 <h4 class="col-12 actT">Atención psicopedagogica</h4>
-                <ul class="col-12">
-                    <li>Clinica psicopedagogica</li>
-                    <li>Diagnostico y tratamiento de las dificultades de aprendizaje</li>
+                <ul class="col-12 esp">
+                    <li class="esp">Clinica psicopedagogica</li>
+                    <li class="esp">Diagnostico y tratamiento de las dificultades de aprendizaje</li>
                 </ul>
             </div>
-            <div class="col-12 col-lg-5 act">
-                <img src="/images/discapacidad.jpeg" alt="" class="col-12 img">
-                <h4 class="col-12 actT">Discapacidad</h4>
-                <ul class="col-12">
-                    <li>Equipo interdisciplinario: psicologia, psicopedagogi­a, fonoaudiologia.</li>
-                </ul>
+        </div>
+
+        <div class="row desk" style="justify-content: space-around;"> 
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Psicología</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Niños, Adolescentes, Adultos</li>
+                        <li class="esp">Parejas - Familias</li>
+                        <li class="esp">Orientación a padres</li>
+                    </ul>
+                    <img src="/images/psicologica.jpeg" alt="" class="col-4 img">
+                </div>
+            </div>
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Fonoaudiología</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Trastornos del lenguaje</li>
+                        <li class="esp">Rehabilitación del habla y de la voz</li>
+                    </ul>
+                    <img src="/images/psicologica.jpeg" alt="" class="col-4 img">
+                </div>
+            </div>
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Psicopedagogía</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Clínica psicopedagógica</li>
+                        <li class="esp">Diagnóstico y tratamiento de las dificultades de aprendizaje</li>
+                    </ul>
+                    <img src="/images/psicologica.jpeg" alt="" class="col-4 img">
+                </div>
             </div>
         </div>
     </main>
