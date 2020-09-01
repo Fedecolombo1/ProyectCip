@@ -1,18 +1,16 @@
 .banner {
+    padding-top: 201px !important;
     height: 132px !important;
     background: linear-gradient(#034f84, #00B7FF);
-    margin-bottom: 30px;
-}
-main {
-    padding: 0px !important
 }
 h2{
+    padding-top: 30px;
     text-align: start !important;
-}
-.nos {
-    text-decoration: underline #034f84;
 }
 p{
     margin-bottom: 0px;
     padding-bottom: 16px;
+}
+main{
+    padding-top: 0px !important;
 }

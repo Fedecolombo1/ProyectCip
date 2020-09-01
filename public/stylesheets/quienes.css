@@ -1,11 +1,16 @@
 h3.col-12.nombre {
     color: #034f84;
     font-weight: 700;
+    font-size: 26px;
 }
 p.col-12.titulo {
     font-style: italic;
 }
+main{
+    padding-top: 0px !important;
+}
 .banner {
+    padding-top: 221px !important;
     height: 132px !important;
     background: linear-gradient(#034f84, #00B7FF);
     padding: 0px;
@@ -16,4 +21,8 @@ p.col-12.titulo {
 }
 main{
     padding-bottom: 40px;
+}
+.consultor {
+    font-weight: bold;
+    color: #034f84;
 }

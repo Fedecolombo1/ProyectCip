@@ -3,6 +3,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 header{
+  position: fixed;
+  z-index: 4;
+  width: 100%;
   align-items: center;
   height: 101px;
   background: linear-gradient(#034f84, #043f57);
@@ -83,6 +86,7 @@ i {
   font-size: 22px;
 }
 main {
+  padding-top: 101px;
   background-color: #f1f2f6;
 }
 .quienes {
@@ -109,10 +113,12 @@ img.foto{
 }
 p.direc {
   color: #999;
+  display: inline-block;
+  padding-left: 5px;
 }
 footer{
   padding: 50px;
-  background: linear-gradient(#484f4f, rgb(82, 81, 81));
+  background: #252525;
 }
 nav.col-9.desk {
   display: flex;
@@ -178,6 +184,7 @@ ul.navbarUl li {
 .banner {
   height: 40px;
   background: linear-gradient(#034f84, #00B7FF);
+  padding-top: 101px;
 }
 .foot {
   display: flex;
@@ -189,31 +196,43 @@ ul.navbarUl li {
   margin-bottom: 10px;
 }
 .redess {
-  text-align: center;
-  color: #999;
-  font-size: 26px;
+  text-align: start;
+  color: #3275fe;
+  font-size: 16px;
+  padding-left: 0px !important;
 }
 .iconoss{
   display: flex;
   justify-content: center;
 }
 .navFoot{
-  text-align: start;
+  text-align: center;
   list-style: none;
 }
 .linkk{
-  text-align: start;
+  text-align: center;
   color: #999;
 }
 .linkk:hover{
-  color: white;
+  color: #3275fe;
   text-decoration: none;
   transition: .5s;
 }
 .loc {
-  font-size:16px;
+  text-align: center;
+  font-size:23px;
   color: white;
-  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.line{
+  margin-bottom: 15px;
+  text-align: center;
+  font-size:23px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site {
+  padding-top: 10px;
 }
 @media(min-width: 1024px){
   .mobile {
@@ -232,8 +251,16 @@ ul.navbarUl li {
     justify-content: center;
   }
   .loc {
-    font-size:16px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
     color: white;
     font-weight: 700;
+  }
+  .linkk{
+    text-align: start;
+  }
+  .navFoot{
+    text-align: start;
   }
 }
