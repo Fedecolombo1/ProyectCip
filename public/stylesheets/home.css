@@ -227,15 +227,16 @@ ul.navbarUl li {
 }
 .loc {
   text-align: center;
+  margin-bottom: 18px;
   font-size:23px;
-  color: white;
+  color: #bababa !important;
   font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 .line{
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   text-align: center;
   font-size:23px;
-  color: white;
+  color: #bababa;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .site {
